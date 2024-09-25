@@ -1,0 +1,2 @@
+def figyelmeztetes():
+    print("VIGYAZZ!")

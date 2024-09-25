@@ -1,0 +1,2 @@
+def kacsak():
+    print("kacsaaaaaak!!!")
