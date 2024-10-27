@@ -12,11 +12,11 @@ class Telefon():
         def telefonszam(self, szam):
             self._telefonszam = szam
 
-        def __str__(self):
-            return f"{self.telefonszam}, {self.szin}, {', '.join(self.tartozek)}"
-
         def tartozekot_vesz(self, t):
             self.tartozek.append(t)
+
+        def __str__(self):
+            return f"{self.telefonszam}, {self.szin}, {', '.join(self.tartozek)}"
 
         def __add__(self, other):
             if isinstance(other, Telefon):
